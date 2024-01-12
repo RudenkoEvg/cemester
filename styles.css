@@ -1,0 +1,51 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.0em;
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+button {
+    padding: 10px;
+    background-color: greenyellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #303030;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container:hover label,
+.form-container:hover input,
+.form-container:hover button {
+    color: #ff0000; /* Змініть на ваш бажаний колір */
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-container:hover {
+    color: #303030; /
+}
